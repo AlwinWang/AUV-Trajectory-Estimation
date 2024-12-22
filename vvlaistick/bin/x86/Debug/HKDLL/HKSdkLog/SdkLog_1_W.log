@@ -1,0 +1,55 @@
+[2018-03-29 15:46:52.601][INF] The COM:Core ver is 5.3.1.20, 2017_08_02. Async:1.
+[2018-03-29 15:46:52.601][INF] This hcnetsdk ver is 5.3.1.20 Ver 2017_08_02.
+[2018-03-29 15:46:55.481][INF] login dev 192.168.1.18:8000.
+[2018-03-29 15:46:55.490][INF] Private connect 192.168.1.18:8000 sock=1740 this=0xb29ffd4 cmd=0x10000 port=5084
+[2018-03-29 15:46:55.490][INF] LogonDev1 in[192.168.1.18:8000]
+[2018-03-29 15:46:55.557][INF] LogonDev1 in twice[ZTVjYWVkZGQ0OTQzY2M1NDNlNDVmNDkwYzQ4MDk1MDQ=]
+[2018-03-29 15:46:55.557][INF] LogonDev1 in twice[192.168.1.18:8000]
+[2018-03-29 15:46:55.562][DBG] load[F:\StickVersion\40ÍøÂçË«ÉãÏñÍ· - HK\vvlaistick\bin\x86\Debug\HKDLL\HCNetSDKCom/HCPreview.dll] succ
+[2018-03-29 15:46:55.562][INF] AbilityAnalyze---Init-- start
+[2018-03-29 15:46:55.569][ERR] AbilityAnalyze---open zip package error, package path F:/StickVersion/40ÍøÂçË«ÉãÏñÍ· - HK/vvlaistick/bin/x86/Debug/HKDLL/LocalXml.zip
+[2018-03-29 15:46:55.569][INF] The COM:Preview ver is 5.3.1.20, 2017_08_02.
+[2018-03-29 15:46:55.570][INF] ID-IP-CHAN[0-192.168.1.18-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2018-03-29 15:46:55.576][INF] GlobalCtrl load [F:\StickVersion\40ÍøÂçË«ÉãÏñÍ· - HK\vvlaistick\bin\x86\Debug\HKDLL\PlayCtrl.dll] with sdk path success and get handle[0x12c10000]
+[2018-03-29 15:46:55.576][DBG] ID-IP-CHAN[0-192.168.1.18-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.3f]
+[2018-03-29 15:46:55.585][INF] GlobalCtrl load [F:\StickVersion\40ÍøÂçË«ÉãÏñÍ· - HK\vvlaistick\bin\x86\Debug\HKDLL\HCNetSDKCom/StreamTransClient.dll] with sdk path success and get handle[0x14420000]
+[2018-03-29 15:46:55.587][DBG] StreamTranClient---Create asyncio queue succ!
+[2018-03-29 15:46:55.587][INF] StreamTranClient---version:this RTSP version is 1.1.3.5 2016_04_25..
+[2018-03-29 15:46:55.587][INF] StreamTranClient---version:this RTSP version is asyn..
+[2018-03-29 15:46:55.587][INF] CTransUnitMgr::LoadTransUnitLib Load Succ, m_iInitCount = 0
+[2018-03-29 15:46:55.587][INF] StreamTranClient---TransClientHandle=0 Ptr=0xb2acf90, TotolNum=1
+[2018-03-29 15:46:55.587][DBG] ID-IP-CHAN[0-192.168.1.18-1] rtsp_session[0]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[cc3c0c4]
+[2018-03-29 15:46:55.599][INF] Private connect 192.168.1.18:8000 sock=1872 this=0xb29ffd4 cmd=0x20c04 port=5085
+[2018-03-29 15:46:55.604][INF] ID-IP-CHAN[0-192.168.1.18-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.168.1.18:554/mpeg4/ch01/main/av_stream
+[2018-03-29 15:46:55.604][INF] ID-IP-CHAN[0-192.168.1.18-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[cc3c0c4] start in
+[2018-03-29 15:46:55.615][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2018-03-29 15:46:55.615][DBG] StreamTranClient---[0]rtsp decribe in
+[2018-03-29 15:46:55.632][DBG] ID-IP-CHAN[0-192.168.1.18-1] rtsp_session[0]  [proc_describe] write header, this[cc3c0c4]
+[2018-03-29 15:46:55.638][DBG] StreamTranClient---CRtspHeader GetParameterValueString failed 1
+[2018-03-29 15:46:55.638][DBG] StreamTranClient---[0]rtsp play in
+[2018-03-29 15:46:55.659][DBG] ID-IP-CHAN[0-192.168.1.18-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[cc3c0c4] start out SUC
+[2018-03-29 15:46:55.697][INF] ID-IP-CHAN[0-192.168.1.18-1] [CPreviewPlayer::OpenPlayer] open player[cc12bf4] success
+[2018-03-29 15:46:55.697][DBG] ID-IP-CHAN[0-192.168.1.18-1] RTP Format
+[2018-03-29 15:46:55.697][DBG] ID-IP-CHAN[0-192.168.1.18-1] [CPreviewSession::Start] SUCC
+[2018-03-29 15:46:56.022][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:46:56.023][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:46:58.268][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:46:58.290][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:04.357][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:04.359][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:08.297][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:08.319][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:14.417][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:14.439][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:20.197][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:20.198][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:24.838][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:24.839][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:29.316][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:29.317][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:35.316][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:35.317][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:40.718][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:40.718][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
+[2018-03-29 15:47:46.238][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=45.
+[2018-03-29 15:47:46.238][DBG] StreamTranClient---Not RTP. Not RTSP. Throw byteNum=3.
