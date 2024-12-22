@@ -1,0 +1,78 @@
+{
+  "build": "cuda9.0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cudatoolkit 9.0.*",
+    "libgcc-ng >=5.4.0",
+    "libstdcxx-ng >=5.4.0"
+  ],
+  "extracted_package_dir": "/home/alwin/anaconda3/pkgs/nccl-1.3.5-cuda9.0_0",
+  "features": "",
+  "files": [
+    "include/nccl.h",
+    "lib/libnccl.so",
+    "lib/libnccl.so.1",
+    "lib/libnccl.so.1.3.5",
+    "lib/libnccl_static.a"
+  ],
+  "fn": "nccl-1.3.5-cuda9.0_0.conda",
+  "legacy_bz2_md5": "9b2a95f99b1013b64bf6bc76d11e43b7",
+  "legacy_bz2_size": 8973940,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/alwin/anaconda3/pkgs/nccl-1.3.5-cuda9.0_0",
+    "type": 1
+  },
+  "md5": "ba67a122cf0a487f63e3a7f52a9fba35",
+  "name": "nccl",
+  "package_tarball_full_path": "/home/alwin/anaconda3/pkgs/nccl-1.3.5-cuda9.0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/nccl.h",
+        "path_type": "hardlink",
+        "sha256": "50b5f5f89d000696fd3ceaae3fdda3b9357fcc9cae412036dd5b3cdb13456bba",
+        "sha256_in_prefix": "50b5f5f89d000696fd3ceaae3fdda3b9357fcc9cae412036dd5b3cdb13456bba",
+        "size_in_bytes": 9616
+      },
+      {
+        "_path": "lib/libnccl.so",
+        "path_type": "softlink",
+        "sha256": "34f13e7304a5d311d78d8713b446bdd0567deaa5e43ee19e3f3b317b969291ab",
+        "size_in_bytes": 35038720
+      },
+      {
+        "_path": "lib/libnccl.so.1",
+        "path_type": "softlink",
+        "sha256": "34f13e7304a5d311d78d8713b446bdd0567deaa5e43ee19e3f3b317b969291ab",
+        "size_in_bytes": 35038720
+      },
+      {
+        "_path": "lib/libnccl.so.1.3.5",
+        "path_type": "hardlink",
+        "sha256": "34f13e7304a5d311d78d8713b446bdd0567deaa5e43ee19e3f3b317b969291ab",
+        "sha256_in_prefix": "34f13e7304a5d311d78d8713b446bdd0567deaa5e43ee19e3f3b317b969291ab",
+        "size_in_bytes": 35038720
+      },
+      {
+        "_path": "lib/libnccl_static.a",
+        "path_type": "hardlink",
+        "sha256": "3299d905c345f02dbc73944b2f5cb9db660f71978517eafdb42b124a1c1e25c4",
+        "sha256_in_prefix": "3299d905c345f02dbc73944b2f5cb9db660f71978517eafdb42b124a1c1e25c4",
+        "size_in_bytes": 35320330
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nccl==1.3.5=cuda9.0_0",
+  "sha256": "e44d28d32d1948ac12e5afa4f4a52422deb45ed5bca71511dc483efb5affd233",
+  "size": 1409460,
+  "subdir": "linux-64",
+  "timestamp": 1523280871183,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/nccl-1.3.5-cuda9.0_0.conda",
+  "version": "1.3.5"
+}

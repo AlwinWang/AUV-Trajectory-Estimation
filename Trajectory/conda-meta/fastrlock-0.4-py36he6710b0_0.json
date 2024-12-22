@@ -1,0 +1,152 @@
+{
+  "build": "py36he6710b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/alwin/anaconda3/pkgs/fastrlock-0.4-py36he6710b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/native_libs.txt",
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/fastrlock/__init__.pxd",
+    "lib/python3.6/site-packages/fastrlock/__init__.py",
+    "lib/python3.6/site-packages/fastrlock/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/fastrlock/__pycache__/rlock.cpython-36.pyc",
+    "lib/python3.6/site-packages/fastrlock/_lock.pxi",
+    "lib/python3.6/site-packages/fastrlock/rlock.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/fastrlock/rlock.pxd",
+    "lib/python3.6/site-packages/fastrlock/rlock.py"
+  ],
+  "fn": "fastrlock-0.4-py36he6710b0_0.conda",
+  "legacy_bz2_md5": "72b4fb695819998a093ba8462c1799fe",
+  "legacy_bz2_size": 30553,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/alwin/anaconda3/pkgs/fastrlock-0.4-py36he6710b0_0",
+    "type": 1
+  },
+  "md5": "950e633e6f1ddea91279beaaeaec293d",
+  "name": "fastrlock",
+  "package_tarball_full_path": "/home/alwin/alwinanaconda3/pkgs/fastrlock-0.4-py36he6710b0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "e48ab1951ed8e4d32f804066e1298ba8c09c65f64f90e3b977d0ac29dc0de906",
+        "sha256_in_prefix": "e48ab1951ed8e4d32f804066e1298ba8c09c65f64f90e3b977d0ac29dc0de906",
+        "size_in_bytes": 8298
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "95aa72f492f540f750f76e50e876466144a0d6b396dc3bd7839cd6ca533bb2c1",
+        "sha256_in_prefix": "95aa72f492f540f750f76e50e876466144a0d6b396dc3bd7839cd6ca533bb2c1",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "c6563cc6d3df51d1a335404a9a367fc7d6a514dec73d2716eabc68d0cdac1441",
+        "sha256_in_prefix": "c6563cc6d3df51d1a335404a9a367fc7d6a514dec73d2716eabc68d0cdac1441",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock-0.4-py3.6-linux-x86_64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "40c2cd3428e88ac475353c6dccfc65d99ca287d9fab05c5df150944332091ce0",
+        "sha256_in_prefix": "40c2cd3428e88ac475353c6dccfc65d99ca287d9fab05c5df150944332091ce0",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "86b03ff5fecd1c94d9c56e11049b72e0eb6bff15e9ac6f0c2fb57b9adeb26b61",
+        "sha256_in_prefix": "86b03ff5fecd1c94d9c56e11049b72e0eb6bff15e9ac6f0c2fb57b9adeb26b61",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc5a9e5f1fc257ee1493a09218d80a9c42f8b5a7bdf6a7e700131317cc5d30a4",
+        "sha256_in_prefix": "dc5a9e5f1fc257ee1493a09218d80a9c42f8b5a7bdf6a7e700131317cc5d30a4",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/__pycache__/rlock.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab84b03dea7fab67fc212b4b9c0a9fd8ba2bf77d9881de54ea0ba99af439cbe6",
+        "sha256_in_prefix": "ab84b03dea7fab67fc212b4b9c0a9fd8ba2bf77d9881de54ea0ba99af439cbe6",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/_lock.pxi",
+        "path_type": "hardlink",
+        "sha256": "57ec353a0aed53b11469c0cb651aeb241f5cd9793fdef453d844d85e8488f1c6",
+        "sha256_in_prefix": "57ec353a0aed53b11469c0cb651aeb241f5cd9793fdef453d844d85e8488f1c6",
+        "size_in_bytes": 2093
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/rlock.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fd3c2ce09ef05b70a4ddc887987a0fe53bee19fffd3783ca3d8f689f35d3650b",
+        "sha256_in_prefix": "fd3c2ce09ef05b70a4ddc887987a0fe53bee19fffd3783ca3d8f689f35d3650b",
+        "size_in_bytes": 74360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/rlock.pxd",
+        "path_type": "hardlink",
+        "sha256": "1d62ca0676ae401d51a751e3daced13ba2b156bb258b95b3019453be83ad9221",
+        "sha256_in_prefix": "1d62ca0676ae401d51a751e3daced13ba2b156bb258b95b3019453be83ad9221",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/python3.6/site-packages/fastrlock/rlock.py",
+        "path_type": "hardlink",
+        "sha256": "af1917bb3969e51735c9f1393753d2561bca30b807b87fac3759a77b322fc70c",
+        "sha256_in_prefix": "af1917bb3969e51735c9f1393753d2561bca30b807b87fac3759a77b322fc70c",
+        "size_in_bytes": 310
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fastrlock==0.4=py36he6710b0_0",
+  "sha256": "19add89f4bf2a9107e5b26a2b4653fa793737556f462159ee811c31a781c4bf1",
+  "size": 29482,
+  "subdir": "linux-64",
+  "timestamp": 1535511197979,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/fastrlock-0.4-py36he6710b0_0.conda",
+  "version": "0.4"
+}

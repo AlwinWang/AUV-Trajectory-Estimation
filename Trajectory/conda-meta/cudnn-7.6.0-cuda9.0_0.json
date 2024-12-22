@@ -1,0 +1,67 @@
+{
+  "build": "cuda9.0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cudatoolkit >=9.0,<9.1"
+  ],
+  "extracted_package_dir": "/home/alwin/anaconda3/pkgs/cudnn-7.6.0-cuda9.0_0",
+  "features": "",
+  "files": [
+    "include/cudnn.h",
+    "lib/libcudnn.so",
+    "lib/libcudnn.so.7",
+    "lib/libcudnn.so.7.6.0"
+  ],
+  "fn": "cudnn-7.6.0-cuda9.0_0.conda",
+  "legacy_bz2_md5": "101dab138b6b2e8dadf7c0e74b8f0876",
+  "legacy_bz2_size": 192527229,
+  "license": "Proprietary",
+  "link": {
+    "source": "/home/alwin/anaconda3/pkgs/cudnn-7.6.0-cuda9.0_0",
+    "type": 1
+  },
+  "md5": "2a4919c94646083b40d6da424898b95f",
+  "name": "cudnn",
+  "package_tarball_full_path": "/home/alwin/anaconda3/pkgs/cudnn-7.6.0-cuda9.0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/cudnn.h",
+        "path_type": "hardlink",
+        "sha256": "992bf312d5f1c9fc56fed8c1811bfcbc8ece9205e765dff184eb006a36eff050",
+        "sha256_in_prefix": "992bf312d5f1c9fc56fed8c1811bfcbc8ece9205e765dff184eb006a36eff050",
+        "size_in_bytes": 134145
+      },
+      {
+        "_path": "lib/libcudnn.so",
+        "path_type": "softlink",
+        "sha256": "4ff9fd9592f3c6fa2625fc5a5071c6f91ac59c08c28ca920eef492b78cba9c1f",
+        "size_in_bytes": 325781648
+      },
+      {
+        "_path": "lib/libcudnn.so.7",
+        "path_type": "softlink",
+        "sha256": "4ff9fd9592f3c6fa2625fc5a5071c6f91ac59c08c28ca920eef492b78cba9c1f",
+        "size_in_bytes": 325781648
+      },
+      {
+        "_path": "lib/libcudnn.so.7.6.0",
+        "path_type": "hardlink",
+        "sha256": "4ff9fd9592f3c6fa2625fc5a5071c6f91ac59c08c28ca920eef492b78cba9c1f",
+        "sha256_in_prefix": "4ff9fd9592f3c6fa2625fc5a5071c6f91ac59c08c28ca920eef492b78cba9c1f",
+        "size_in_bytes": 325781648
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cudnn==7.6.0=cuda9.0_0",
+  "sha256": "5c8020b4b5d35ee6241546b41b041942b13a5f640f79dad380a1e029066eeac5",
+  "size": 143215500,
+  "subdir": "linux-64",
+  "timestamp": 1559576388391,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cudnn-7.6.0-cuda9.0_0.conda",
+  "version": "7.6.0"
+}
